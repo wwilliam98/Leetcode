@@ -2,4 +2,5 @@
 
 |#|Title|Solution|Difficulty|Basic Idea|
 |---|-----|-----------------|-------|------|
-|1|Two Sum|[Solution](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Hash Map|
+|1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
+|79|WordSearch|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
