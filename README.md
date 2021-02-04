@@ -1,5 +1,5 @@
 <h1>Hi, These are my leetcode solution, Hope it Helps! :)</h1>
-<!--||||||-->
+<!--|||[]()|||-->
 
 |#|Title|Solution|Difficulty|Basic Idea|
 |----|-----|-----------------|-------|------|
