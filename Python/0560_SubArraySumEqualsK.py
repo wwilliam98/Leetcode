@@ -1,4 +1,18 @@
-
+#Add "0: 1" in dictionary (base case), for sum == target
+#Store prev in HashMap, if remaining (sum-target) in the dictionary, add count by d[sum-target], then add d[sum-target] by 1
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        d = dict()
+        d[0] = 1
+        s = 0
+        count = 0
+        
+        for i in range(len(nums)):
+            s += nums[i]
+            count += d.get(s-k, 0)
+            d[s] = d.get(s, 0) + 1
+        
+        return count
 
 #Slow approach, not accepted(O(n^2))
 class Solution:
