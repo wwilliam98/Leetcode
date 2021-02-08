@@ -20,6 +20,7 @@
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
+|821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
