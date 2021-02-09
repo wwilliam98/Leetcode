@@ -7,12 +7,14 @@
 |71|Simplify Path|[Pyhton](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
+|103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
 |112|Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0112_PathSum.py)|Easy|Recursive, top-down|
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
 |114|Flatten Binary Tree To Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0114_FlattenBinaryTreeToLinkedList.py)|Medium|Pre-order traversal with rewiring node|
 |141|Linked List Cycle|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/141_LinkedListCycle.py)|Easy|Using Try and Except|
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
+|240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Store result and change string in place|
@@ -27,6 +29,7 @@
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
