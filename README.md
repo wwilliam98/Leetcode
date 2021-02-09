@@ -17,8 +17,11 @@
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Store result and change string in place|
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|Reverse Linked List -> Add them -> Reverse it again|
+|498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
+|503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
+|616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
