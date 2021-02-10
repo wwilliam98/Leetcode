@@ -35,7 +35,7 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         
-        if prev:
+        if prev: #To disconnect, left linked list, and right linked list
             prev.next = None
         
         return slow
