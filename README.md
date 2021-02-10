@@ -5,9 +5,11 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
 |71|Simplify Path|[Pyhton](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
+|73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
+|109|Convert Sorted List To Binary Search Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0109_ConvertSortedListToBinarySearchTree.py)|Medium|Find the middle, convert it to tree|
 |112|Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0112_PathSum.py)|Easy|Recursive, top-down|
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
 |114|Flatten Binary Tree To Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0114_FlattenBinaryTreeToLinkedList.py)|Medium|Pre-order traversal with rewiring node|
@@ -21,6 +23,7 @@
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|Reverse Linked List -> Add them -> Reverse it again|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
+|538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
