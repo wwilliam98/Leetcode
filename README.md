@@ -14,6 +14,7 @@
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
 |114|Flatten Binary Tree To Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0114_FlattenBinaryTreeToLinkedList.py)|Medium|Pre-order traversal with rewiring node|
 |141|Linked List Cycle|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/141_LinkedListCycle.py)|Easy|Using Try and Except|
+|173|Binary Search Tree Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0173_BinarySearchTreeIterator.py)|Medium|Create an inorder list|
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
