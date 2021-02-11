@@ -9,19 +9,19 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
-        self.hash = {}
+        self.visited = {}
         return self.helper(head)
         
     def helper(self, oldhead):
         if not oldhead:
             return None
         
-        if oldhead in self.hash:
-            return self.hash[oldhead]
+        if oldhead in self.visited: #if the random pointer, pointing to the previous node, return new node
+            return self.visited[oldhead]
         
         newHead = Node(oldhead.val, None, None)
-        self.hash[oldhead] = newHead
-        
+        self.visited[oldhead] = newHead
+    
         newHead.next = self.helper(oldhead.next)
         newHead.random = self.helper(oldhead.random)
         
