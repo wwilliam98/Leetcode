@@ -11,6 +11,7 @@
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
 |105|Construct Binary Tree from Preorder and Inorder Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py)|Medium|DFS|
+|106|Construct Binary Tree from Inorder and Postorder Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0106_ConstructBinaryTreeFromInorderAndPostorderTraversal.py)|Medium|DFS|
 |109|Convert Sorted List To Binary Search Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0109_ConvertSortedListToBinarySearchTree.py)|Medium|Find the middle, convert it to tree|
 |112|Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0112_PathSum.py)|Easy|Recursive, top-down|
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
