@@ -12,7 +12,7 @@ class Solution:
             
         idx = inorder.index(postorder.pop())
         root = TreeNode(inorder[idx])
-        root.right = self.buildTree(inorder[idx+1:], postorder)
+        root.right = self.buildTree(inorder[idx+1:], postorder) #keep going right because if we go left, it wont match with the postorder pattern
         root.left = self.buildTree(inorder[:idx], postorder)
         
         return root
