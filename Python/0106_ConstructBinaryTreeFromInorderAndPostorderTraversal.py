@@ -7,7 +7,7 @@
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
         print(inorder, postorder)
-        if not inorder or not postorder:
+        if not inorder or not postorder: #if we keep going right, they left will be gone
             return None
             
         idx = inorder.index(postorder.pop())
