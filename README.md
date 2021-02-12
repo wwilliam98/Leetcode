@@ -4,15 +4,18 @@
 |#|Title|Solution|Difficulty|Basic Idea|
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
-|71|Simplify Path|[Pyhton](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
+|48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
+|71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
+|105|Construct Binary Tree from Preorder and Inorder Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py)|Medium|DFS|
 |109|Convert Sorted List To Binary Search Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0109_ConvertSortedListToBinarySearchTree.py)|Medium|Find the middle, convert it to tree|
 |112|Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0112_PathSum.py)|Easy|Recursive, top-down|
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
 |114|Flatten Binary Tree To Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0114_FlattenBinaryTreeToLinkedList.py)|Medium|Pre-order traversal with rewiring node|
+|138|Copy List with Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0138_CopyListWithRandomPointer.py)|Medium|Hash Table|
 |141|Linked List Cycle|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/141_LinkedListCycle.py)|Easy|Using Try and Except|
 |173|Binary Search Tree Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0173_BinarySearchTreeIterator.py)|Medium|Create an inorder list|
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
@@ -31,9 +34,11 @@
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
+|776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
+|1087|Brace Expansion|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1087_BraceExpansion.py)|Medium|String, Permutation|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
