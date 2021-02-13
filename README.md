@@ -24,8 +24,10 @@
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
+|438|Find All Anagrams in a String|[Python](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|Store HashMap of p, then compare to s|
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Store result and change string in place|
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|Reverse Linked List -> Add them -> Reverse it again|
+|456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
@@ -35,16 +37,20 @@
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
+|769|Max Chunks To Make Sorted|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0769_MaxChunksToMakeSorted.py)|Medium|find max of the highest element and compare to i|
 |776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1087|Brace Expansion|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1087_BraceExpansion.py)|Medium|String, Permutation|
+|1099|Two Sum Less Than K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1099_TwoSumLessThanK.py)|Easy|Find max that is less than K|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
+|1344|Angle Between Hands of a Clock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1344_AngleBetweenHandsOfAClock.py)|Medium|The only good thing is, hour = hour % 12|
 |1375|Bulb Switcher III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1375_BulbSwitcherIII)|Medium|Check the right most lighted bulb (max(right, A[i])|
+|1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
