@@ -1,3 +1,26 @@
+#Shorter Solution same idea
+class Solution:
+    def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+        n = len(grid)
+        
+        if grid[0][0] or grid[n-1][n-1]:
+            return -1
+        
+        q = [(0, 0)]
+        grid[0][0] = 1
+        
+        while q:
+            i, j = q.pop(0)
+            if i == n-1 and j == n-1: 
+                return grid[i][j]
+            
+            for x, y in ((i-1,j-1),(i-1,j),(i-1,j+1),(i,j-1),(i,j+1),(i+1,j-1),(i+1,j),(i+1,j+1)):
+                if 0 <= x < n and 0 <= y < n and not grid[x][y]:
+                    grid[x][y] = grid[i][j]+1
+                    q.append((x, y))
+        return -1
+
+#Longer solution, but more understandable
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         mrow = len(grid)-1
