@@ -5,6 +5,7 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
+|64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
@@ -25,6 +26,8 @@
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
+|426|Convert Binary Search Tree to Sorted Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0426_ConvertBinarySeachTreeToSortedDoublyLinkedList.py)|Medium|Store head/first node and curr/last node|
+|430|Flatten a Multilevel Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0430_FlattenAMultiLevelDoublyLinkedList.py)|Medium|update connection every node|
 |438|Find All Anagrams in a String|[Python](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|Store HashMap of p, then compare to s|
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Store result and change string in place|
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|Reverse Linked List -> Add them -> Reverse it again|
@@ -50,6 +53,7 @@
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
+|1337|The K Weakest Rows in a Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1337_TheKWeakestRowsInAMatrix.py)|Easy|Store all count, index -> Sort -> Return|
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
 |1344|Angle Between Hands of a Clock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1344_AngleBetweenHandsOfAClock.py)|Medium|The only good thing is, hour = hour % 12|
 |1375|Bulb Switcher III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1375_BulbSwitcherIII)|Medium|Check the right most lighted bulb (max(right, A[i])|
@@ -57,3 +61,4 @@
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
+|1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
