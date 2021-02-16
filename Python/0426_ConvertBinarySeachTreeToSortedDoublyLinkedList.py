@@ -20,15 +20,17 @@ class Solution:
         
         
     def helper(self, node):
-        if node:
-            self.helper(node.left)
-            
-            if self.last:
-                self.last.right = node
-                node.left = self.last
-                
-            else:
-                self.first = node
-            self.last = node
-            
-            self.helper(node.right)
+        if not node:
+            return
+        
+        self.helper(node.left)
+
+        if self.last:
+            self.last.right = node
+            node.left = self.last
+
+        else:
+            self.first = node
+        self.last = node
+
+        self.helper(node.right)
