@@ -6,17 +6,14 @@
 #         self.right = right
 class Solution:
     def sumRootToLeaf(self, root: TreeNode) -> int:
-        self.binary = []
+        self.s = 0
         self.helper(root, 0)
-        s = 0
-        for n in self.binary:
-            s += int(str(n), 2)
-        return s
+        return self.s
         
     def helper(self, node, temp):
         temp = temp * 10 + node.val
         if not node.left and not node.right:
-            self.binary.append(temp)
+            self.s += int(str(temp), 2)
             return
         
         if node.left:
