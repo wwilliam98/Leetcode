@@ -4,6 +4,7 @@
 |#|Title|Solution|Difficulty|Basic Idea|
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
+|11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
@@ -18,6 +19,8 @@
 |112|Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0112_PathSum.py)|Easy|Recursive, top-down|
 |113|Path Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0113_PathSumII.py)|Medium|Recursive and store path, top-down|
 |114|Flatten Binary Tree To Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0114_FlattenBinaryTreeToLinkedList.py)|Medium|Pre-order traversal with rewiring node|
+|121|Best Time to Buy and Sell Stock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0121_BestTimeToBuyAndSellStock.py)|Easy|keep tracking of the lowest point|
+|133|Clone Graph|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0133_CloneGraph.py)|Medium|DFS/BFS, Graph, Recusion|
 |138|Copy List with Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0138_CopyListWithRandomPointer.py)|Medium|Hash Table|
 |141|Linked List Cycle|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/141_LinkedListCycle.py)|Easy|Using Try and Except|
 |173|Binary Search Tree Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0173_BinarySearchTreeIterator.py)|Medium|Create an inorder list|
@@ -26,6 +29,9 @@
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
+|314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
+|332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
+|366|Find Leaves of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0366_FindLeavesOfBinaryTree.py)|Medium|keep Cutting leaves until root == None|
 |426|Convert Binary Search Tree to Sorted Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0426_ConvertBinarySeachTreeToSortedDoublyLinkedList.py)|Medium|Store head/first node and curr/last node|
 |430|Flatten a Multilevel Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0430_FlattenAMultiLevelDoublyLinkedList.py)|Medium|update connection every node|
 |438|Find All Anagrams in a String|[Python](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|Store HashMap of p, then compare to s|
@@ -34,7 +40,9 @@
 |456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
+|536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
+|545|Boundary of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0545_BoundaryOfBinaryTree.py)|Medium|find left boundary, right boundary, leaf|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
@@ -43,10 +51,13 @@
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
 |769|Max Chunks To Make Sorted|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0769_MaxChunksToMakeSorted.py)|Medium|find max of the highest element and compare to i|
+|773|Flood Fill|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0773_FloodFill.py)|Easy|DFS|
 |776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
+|784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
+|1022|Sum of Root To Leaf Binary Numbers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1022_SumOfRootToLeafBinaryNumbers.py)|Easy|Pre-Order, add to sum|
 |1087|Brace Expansion|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1087_BraceExpansion.py)|Medium|String, Permutation|
 |1091|Shortest Path in Binary Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1091_ShortestPathInBinaryMatrix.py)|Medium|define the neighbor, using yield function, add 1 to each neighbor|
 |1099|Two Sum Less Than K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1099_TwoSumLessThanK.py)|Easy|Find max that is less than K|
@@ -61,5 +72,6 @@
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
+|1490|Clone N-ary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1490_CloneN-aryTree.py)|Medium|BFS, Indexing|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
