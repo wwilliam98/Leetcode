@@ -5,6 +5,7 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
+|46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
@@ -43,6 +44,7 @@
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
 |545|Boundary of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0545_BoundaryOfBinaryTree.py)|Medium|find left boundary, right boundary, leaf|
+|547|Number of Province|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0547_NumberOfProvince.py)|Medium|BFS, Graph, number of linked nodes|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
@@ -56,14 +58,18 @@
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1022|Sum of Root To Leaf Binary Numbers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1022_SumOfRootToLeafBinaryNumbers.py)|Easy|Pre-Order, add to sum|
 |1087|Brace Expansion|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1087_BraceExpansion.py)|Medium|String, Permutation|
 |1091|Shortest Path in Binary Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1091_ShortestPathInBinaryMatrix.py)|Medium|define the neighbor, using yield function, add 1 to each neighbor|
 |1099|Two Sum Less Than K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1099_TwoSumLessThanK.py)|Easy|Find max that is less than K|
 |1110|Delete Nodes And Return Forest|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1110_DeleteNodesAndReturnForest.py)|Medium|if we want to change node, there must be node.left = ... node.right = ...|
+|1134|Armstrong Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1134_ArmstrongNumber.py)|Easy|int to Str to int|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
+|1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
+|1249|Minimum Remove to Make Valid Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1249_MinimumRemoveToMakeValidParentheses.py)|Medium|Two-pass|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
 |1337|The K Weakest Rows in a Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1337_TheKWeakestRowsInAMatrix.py)|Easy|Store all count, index -> Sort -> Return|
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
