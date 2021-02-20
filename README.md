@@ -32,6 +32,7 @@
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
+|346|Moving Average from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0346_MovingAverageFromDataStream.py)|Easy|calculate arrayfrom count-size|
 |366|Find Leaves of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0366_FindLeavesOfBinaryTree.py)|Medium|keep Cutting leaves until root == None|
 |426|Convert Binary Search Tree to Sorted Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0426_ConvertBinarySeachTreeToSortedDoublyLinkedList.py)|Medium|Store head/first node and curr/last node|
 |430|Flatten a Multilevel Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0430_FlattenAMultiLevelDoublyLinkedList.py)|Medium|update connection every node|
@@ -65,6 +66,7 @@
 |1091|Shortest Path in Binary Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1091_ShortestPathInBinaryMatrix.py)|Medium|define the neighbor, using yield function, add 1 to each neighbor|
 |1099|Two Sum Less Than K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1099_TwoSumLessThanK.py)|Easy|Find max that is less than K|
 |1110|Delete Nodes And Return Forest|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1110_DeleteNodesAndReturnForest.py)|Medium|if we want to change node, there must be node.left = ... node.right = ...|
+|1128|Number of Equivalent Domino Pairs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1128_NumberOfEquivalentDominoParts.py)|Easy|Just need to know the formula|
 |1134|Armstrong Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1134_ArmstrongNumber.py)|Easy|int to Str to int|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
