@@ -83,3 +83,6 @@
 |1490|Clone N-ary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1490_CloneN-aryTree.py)|Medium|BFS, Indexing|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
+|1765|Map of Highest Peak|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1765_MapOfHighestPeak.py)|Medium|BFS|
+|1768|Merge Strings Alternately|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1768_MergeStringsAlternately.py)|Easy|straight forward solution|
+|1769|Minimum Number of Operations to Move All Balls to Each Box|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.py)|Medium|Check front and back|
