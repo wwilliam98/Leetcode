@@ -44,6 +44,7 @@
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
+|542|01 Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0542_01Matrix.py)|Medium|BFS|
 |545|Boundary of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0545_BoundaryOfBinaryTree.py)|Medium|find left boundary, right boundary, leaf|
 |547|Number of Province|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0547_NumberOfProvince.py)|Medium|BFS, Graph, number of linked nodes|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
@@ -59,6 +60,7 @@
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1022|Sum of Root To Leaf Binary Numbers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1022_SumOfRootToLeafBinaryNumbers.py)|Easy|Pre-Order, add to sum|
@@ -68,6 +70,7 @@
 |1110|Delete Nodes And Return Forest|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1110_DeleteNodesAndReturnForest.py)|Medium|if we want to change node, there must be node.left = ... node.right = ...|
 |1128|Number of Equivalent Domino Pairs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1128_NumberOfEquivalentDominoParts.py)|Easy|Just need to know the formula|
 |1134|Armstrong Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1134_ArmstrongNumber.py)|Easy|int to Str to int|
+|1162|As Far from Land as Possible|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1162_AsFarFromLandAsPossible.py)|Medium|BFS|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
