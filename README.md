@@ -28,6 +28,7 @@
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
+|277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
@@ -42,6 +43,7 @@
 |456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
+|524|Longest Word in Dictionary through Deleting|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0524_LongestWordInDictionaryThroughDeleting.py)|Medium|Check Substring and compare to result|
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
 |542|01 Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0542_01Matrix.py)|Medium|BFS|
