@@ -5,6 +5,7 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
+|36|Valid Sudoku|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0036_ValidSudoku.py)|Medium|Check row, col, and boxes|
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
@@ -28,6 +29,7 @@
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
+|261|Graph Valid Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0261_GraphValidTree.py)|Medium|graph is a tree if (number of nodes - 1 == number of edges) and (number of nodes(seen) == the number of nodes(n/actual node)|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
@@ -35,6 +37,7 @@
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
 |346|Moving Average from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0346_MovingAverageFromDataStream.py)|Easy|calculate arrayfrom count-size|
 |366|Find Leaves of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0366_FindLeavesOfBinaryTree.py)|Medium|keep Cutting leaves until root == None|
+|417|Pacific Atlantic Water Flow|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0417_PacificAtlanticWaterFlow.py)|Medium|Find cell that can connect to pacific, then atlantic then see if that cell can connect to both pacific and atlantic|
 |426|Convert Binary Search Tree to Sorted Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0426_ConvertBinarySeachTreeToSortedDoublyLinkedList.py)|Medium|Store head/first node and curr/last node|
 |430|Flatten a Multilevel Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0430_FlattenAMultiLevelDoublyLinkedList.py)|Medium|update connection every node|
 |438|Find All Anagrams in a String|[Python](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|Medium|Store HashMap of p, then compare to s|
@@ -60,8 +63,10 @@
 |773|Flood Fill|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0773_FloodFill.py)|Easy|DFS|
 |776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
+|807|Max Increase to Keep City Skyline|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0807_MaxIncreaseToKeepCitySkyline.py)|Medium|find max of row, col. compare minimum and sub with cell|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
