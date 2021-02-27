@@ -28,7 +28,8 @@
 |173|Binary Search Tree Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0173_BinarySearchTreeIterator.py)|Medium|Create an inorder list|
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
-|240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|Looking backwards from row, if value greater go to the next col|
+|236|Lowest Common Ancestor of a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0236_LowestCommonAncestorOfABinaryTree.py)|Medium|DFS/Iteratively|
+|240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|search space reduction, O(m+n)|
 |261|Graph Valid Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0261_GraphValidTree.py)|Medium|graph is a tree if (number of nodes - 1 == number of edges) and (number of nodes(seen) == the number of nodes(n/actual node)|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
@@ -53,6 +54,7 @@
 |545|Boundary of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0545_BoundaryOfBinaryTree.py)|Medium|find left boundary, right boundary, leaf|
 |547|Number of Province|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0547_NumberOfProvince.py)|Medium|BFS, Graph, number of linked nodes|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
+|581|Shortest Unsorted Continuous Subarray|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0581_ShortestUnsortedContinuousSubarray.py)|Medium|Find the unsorted, find max&min value in the unsorted, extend the index again until find the right index|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
@@ -66,6 +68,7 @@
 |807|Max Increase to Keep City Skyline|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0807_MaxIncreaseToKeepCitySkyline.py)|Medium|find max of row, col. compare minimum and sub with cell|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|856|Score of Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0856_ScoreOfParentheses.py)|Medium|Store depth of each parentheses|
 |980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
@@ -81,8 +84,10 @@
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
+|1214|Two Sum BSTs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1214_TwoSumBST.py)|Medium|store in hashset, and find value|
 |1249|Minimum Remove to Make Valid Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1249_MinimumRemoveToMakeValidParentheses.py)|Medium|Two-pass|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
+|1331|Rank Transform of an Array|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1331_RankTransformationOfAnArr.py)|Easy|Hashmap|
 |1337|The K Weakest Rows in a Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1337_TheKWeakestRowsInAMatrix.py)|Easy|Store all count, index -> Sort -> Return|
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
 |1344|Angle Between Hands of a Clock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1344_AngleBetweenHandsOfAClock.py)|Medium|The only good thing is, hour = hour % 12|
@@ -90,7 +95,11 @@
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
+|1485|Clone Binary Tree With Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1485_CloneBinaryTreeWithRandomPointer.py)|Medium|DFS, Hashmap|
 |1490|Clone N-ary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1490_CloneN-aryTree.py)|Medium|BFS, Indexing|
+|1602|Find Nearest Right Node in Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1602_FindNearestRightNodeInBinaryTree.py)|Medium|BFS|
+|1650|Lowest Common Ancestor of a Binary Tree III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1650_LowestCommonAncestsorOfABinaryTreeIII.py)|Medium|find path of p, if q not in the path, set q as q parent|
+|1676|Lowest Common Ancestor of a Binary Tree IV|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1676_LowestCommonAncestorOfABinaryTreeIV.py)|Medium|find the earliest node, then go right, if found node on both, return that node, else, return the found node|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
 |1765|Map of Highest Peak|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1765_MapOfHighestPeak.py)|Medium|BFS|
