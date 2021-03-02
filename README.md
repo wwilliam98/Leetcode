@@ -5,6 +5,7 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
+|29|Divide Two Integers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0029_DivideTwoIntegers.py)|Medium|Using the power of 2, subtract the dividend by double, keep adding the power to quotient|
 |36|Valid Sudoku|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0036_ValidSudoku.py)|Medium|Check row, col, and boxes|
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
@@ -54,6 +55,7 @@
 |545|Boundary of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0545_BoundaryOfBinaryTree.py)|Medium|find left boundary, right boundary, leaf|
 |547|Number of Province|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0547_NumberOfProvince.py)|Medium|BFS, Graph, number of linked nodes|
 |560|Sub Array Sum Equals K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0560_SubArraySumEqualsK.py)|Medium|Good Hash-Map problem|
+|575|Distribute Candies|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0575_Distribute_Candies.py)|Easy|Hashset|
 |581|Shortest Unsorted Continuous Subarray|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0581_ShortestUnsortedContinuousSubarray.py)|Medium|Find the unsorted, find max&min value in the unsorted, extend the index again until find the right index|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
@@ -67,8 +69,11 @@
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
 |807|Max Increase to Keep City Skyline|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0807_MaxIncreaseToKeepCitySkyline.py)|Medium|find max of row, col. compare minimum and sub with cell|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
+|819|Most Common Word|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0819_MostCommonWord.py)|Easy|Dictionary|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |856|Score of Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0856_ScoreOfParentheses.py)|Medium|Store depth of each parentheses|
+|865|Smallest Subtree with all the Deepest Nodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS + LCA|
+|895|Maximum Frequency Stack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack?|
 |980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
@@ -82,11 +87,13 @@
 |1134|Armstrong Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1134_ArmstrongNumber.py)|Easy|int to Str to int|
 |1162|As Far from Land as Possible|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1162_AsFarFromLandAsPossible.py)|Medium|BFS|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
+|1165|Single-Row Keyboard|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1165_Single-Row_Keyboard.py)|Easy|Store all index in hashmap|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1214|Two Sum BSTs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1214_TwoSumBST.py)|Medium|store in hashset, and find value|
 |1249|Minimum Remove to Make Valid Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1249_MinimumRemoveToMakeValidParentheses.py)|Medium|Two-pass|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
+|1306|Jump Game III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1306_JumpGameIII.py)|Medium|BFS in 1D Array|
 |1331|Rank Transform of an Array|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1331_RankTransformationOfAnArr.py)|Easy|Hashmap|
 |1337|The K Weakest Rows in a Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1337_TheKWeakestRowsInAMatrix.py)|Easy|Store all count, index -> Sort -> Return|
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
@@ -100,8 +107,10 @@
 |1602|Find Nearest Right Node in Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1602_FindNearestRightNodeInBinaryTree.py)|Medium|BFS|
 |1650|Lowest Common Ancestor of a Binary Tree III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1650_LowestCommonAncestsorOfABinaryTreeIII.py)|Medium|find path of p, if q not in the path, set q as q parent|
 |1676|Lowest Common Ancestor of a Binary Tree IV|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1676_LowestCommonAncestorOfABinaryTreeIV.py)|Medium|find the earliest node, then go right, if found node on both, return that node, else, return the found node|
+|1740|Find Distance in a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1740_FindDistanceInABinaryTree.py)|Medium|find the lca, add distance from lca to p and distance from lca to q|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
 |1765|Map of Highest Peak|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1765_MapOfHighestPeak.py)|Medium|BFS|
 |1768|Merge Strings Alternately|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1768_MergeStringsAlternately.py)|Easy|straight forward solution|
 |1769|Minimum Number of Operations to Move All Balls to Each Box|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.py)|Medium|Check front and back|
+|1774|Closest Dessert Cost|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1774_ClosestDessertCost.py)|Medium|Recursion|
