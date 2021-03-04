@@ -31,6 +31,7 @@
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
 |236|Lowest Common Ancestor of a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0236_LowestCommonAncestorOfABinaryTree.py)|Medium|DFS/Iteratively|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|search space reduction, O(m+n)|
+|256|Paint House|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0256_PaintHouse.py)|Medium|DP, calculate every possibility for each row|
 |261|Graph Valid Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0261_GraphValidTree.py)|Medium|graph is a tree if (number of nodes - 1 == number of edges) and (number of nodes(seen) == the number of nodes(n/actual node)|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
@@ -89,6 +90,7 @@
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1165|Single-Row Keyboard|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1165_Single-Row_Keyboard.py)|Easy|Store all index in hashmap|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
+|1123|Lowest Common Ancestor of Deepest Leaves|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1123_LowestCommonAncestorOfDeepestLeaves.py)|Medium|BFS + LCA, same problem as 865|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1214|Two Sum BSTs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1214_TwoSumBST.py)|Medium|store in hashset, and find value|
 |1249|Minimum Remove to Make Valid Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1249_MinimumRemoveToMakeValidParentheses.py)|Medium|Two-pass|
@@ -99,6 +101,7 @@
 |1342|Number Of Steps To Reduce A Number To Zero|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1342_NumberOfStepsToReduceANumberToZero.py)|Easy|Using While Loop|
 |1344|Angle Between Hands of a Clock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1344_AngleBetweenHandsOfAClock.py)|Medium|The only good thing is, hour = hour % 12|
 |1375|Bulb Switcher III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1375_BulbSwitcherIII)|Medium|Check the right most lighted bulb (max(right, A[i])|
+|1391|Check if There is a Valid Path in a Grid|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1391_CheckIfThereIsAValidPathInAGrid.py)|Medium|DFS using for loop|
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
