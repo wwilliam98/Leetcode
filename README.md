@@ -7,6 +7,8 @@
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
 |29|Divide Two Integers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0029_DivideTwoIntegers.py)|Medium|Using the power of 2, subtract the dividend by double, keep adding the power to quotient|
 |36|Valid Sudoku|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0036_ValidSudoku.py)|Medium|Check row, col, and boxes|
+|39|Combination Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0039_CombinationSum.py)|Medium|Backtracking|
+|40|Combination Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0040_CombinationSumII.py)|Medium|Backtracking with optimization, good question|
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
@@ -26,13 +28,16 @@
 |133|Clone Graph|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0133_CloneGraph.py)|Medium|DFS/BFS, Graph, Recusion|
 |138|Copy List with Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0138_CopyListWithRandomPointer.py)|Medium|Hash Table|
 |141|Linked List Cycle|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/141_LinkedListCycle.py)|Easy|Using Try and Except|
+|160|Intersection of Two Linked Lists|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0160_IntersectionOfTwoLinkedLists.py)|Easy|Stack|
 |173|Binary Search Tree Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0173_BinarySearchTreeIterator.py)|Medium|Create an inorder list|
 |199|Binary Tree Right Side View|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0199_BinaryTreeRightSideView.py)|Medium|BFS|
 |202|Happy Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0202_HappyNumber.py)|Easy|Create seen, and Function for next square, Keep looping until n == 1|
 |236|Lowest Common Ancestor of a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0236_LowestCommonAncestorOfABinaryTree.py)|Medium|DFS/Iteratively|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|search space reduction, O(m+n)|
+|246|Strobogrammatic Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0246_StrobogrammaticNumber.py)|Easy|HashTable|
 |256|Paint House|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0256_PaintHouse.py)|Medium|DP, calculate every possibility for each row|
 |261|Graph Valid Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0261_GraphValidTree.py)|Medium|graph is a tree if (number of nodes - 1 == number of edges) and (number of nodes(seen) == the number of nodes(n/actual node)|
+|267|Palindrome Permutation II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0267_PalindromePermutationII.py)|Medium|get all the duplicates and mid. palindrome = duplicate + mid + duplicate[::-1]|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
@@ -50,6 +55,7 @@
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
 |524|Longest Word in Dictionary through Deleting|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0524_LongestWordInDictionaryThroughDeleting.py)|Medium|Check Substring and compare to result|
+|526|Beautiful Arrangement|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0526_BeautifulArrangement.py)|Medium|like regular permutation, but we have to check if element is divisible by i, or i divisible by element|
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
 |538|Convert BST to Greater Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0538_ConvertBSTtoGreaterTree.py)|Medium|Recursion|
 |542|01 Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0542_01Matrix.py)|Medium|BFS|
@@ -63,14 +69,17 @@
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
+|706|Design HashMap|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0706_DesignHashMap.py)|Easy|Create new class for hashing|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
 |769|Max Chunks To Make Sorted|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0769_MaxChunksToMakeSorted.py)|Medium|find max of the highest element and compare to i|
 |773|Flood Fill|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0773_FloodFill.py)|Easy|DFS|
 |776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
+|797|All Paths From Source to Target|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0797_AllPathFromSourceToTarget.py)|Medium|Backtracking|
 |807|Max Increase to Keep City Skyline|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0807_MaxIncreaseToKeepCitySkyline.py)|Medium|find max of row, col. compare minimum and sub with cell|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
 |819|Most Common Word|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0819_MostCommonWord.py)|Easy|Dictionary|
+|820|Short Encoding of Words|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0820_ShortEncodingOfWords.py)|Medium|remove all suffix in set|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
 |856|Score of Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0856_ScoreOfParentheses.py)|Medium|Store depth of each parentheses|
 |865|Smallest Subtree with all the Deepest Nodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS + LCA|
@@ -93,8 +102,10 @@
 |1123|Lowest Common Ancestor of Deepest Leaves|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1123_LowestCommonAncestorOfDeepestLeaves.py)|Medium|BFS + LCA, same problem as 865|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1214|Two Sum BSTs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1214_TwoSumBST.py)|Medium|store in hashset, and find value|
+|1239|Maximum Length of a Concatenated String with Unique Characters|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters.py)|Medium|Backtracking, set condition outside the for loop|
 |1249|Minimum Remove to Make Valid Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1249_MinimumRemoveToMakeValidParentheses.py)|Medium|Two-pass|
 |1265|Print Immutable Linked List In Reverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1265_PrintImmutableLinkedListInReverse.py)|Medium|Using Recursion Method|
+|1286|Iterator for Combination|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1286_IteratorForCombination.py)|Medium|Precompute all combinations in an array|
 |1306|Jump Game III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1306_JumpGameIII.py)|Medium|BFS in 1D Array|
 |1331|Rank Transform of an Array|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1331_RankTransformationOfAnArr.py)|Easy|Hashmap|
 |1337|The K Weakest Rows in a Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1337_TheKWeakestRowsInAMatrix.py)|Easy|Store all count, index -> Sort -> Return|
