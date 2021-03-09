@@ -7,6 +7,7 @@
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
 |29|Divide Two Integers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0029_DivideTwoIntegers.py)|Medium|Using the power of 2, subtract the dividend by double, keep adding the power to quotient|
 |36|Valid Sudoku|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0036_ValidSudoku.py)|Medium|Check row, col, and boxes|
+|37|Sudoku Solver|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0037_SudokuSolver.py)|Hard|create valid function, create find_empty, do recursion with base case nothing left is empty|
 |39|Combination Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0039_CombinationSum.py)|Medium|Backtracking|
 |40|Combination Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0040_CombinationSumII.py)|Medium|Backtracking with optimization, good question|
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
@@ -35,6 +36,7 @@
 |236|Lowest Common Ancestor of a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0236_LowestCommonAncestorOfABinaryTree.py)|Medium|DFS/Iteratively|
 |240|Search a 2D Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0240_SearchA2DMatrixII.py)|Medium|search space reduction, O(m+n)|
 |246|Strobogrammatic Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0246_StrobogrammaticNumber.py)|Easy|HashTable|
+|254|Factor Combinations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0254_FactorCombinations.py)|Medium|Trick is to find max limit of first half factor|
 |256|Paint House|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0256_PaintHouse.py)|Medium|DP, calculate every possibility for each row|
 |261|Graph Valid Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0261_GraphValidTree.py)|Medium|graph is a tree if (number of nodes - 1 == number of edges) and (number of nodes(seen) == the number of nodes(n/actual node)|
 |267|Palindrome Permutation II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0267_PalindromePermutationII.py)|Medium|get all the duplicates and mid. palindrome = duplicate + mid + duplicate[::-1]|
@@ -67,6 +69,7 @@
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
+|623|Add One Row to Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0623_AddOneRowToTree.py)|Medium|Keep track of the height of the tree|
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |706|Design HashMap|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0706_DesignHashMap.py)|Easy|Create new class for hashing|
