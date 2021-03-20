@@ -84,6 +84,7 @@
 |819|Most Common Word|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0819_MostCommonWord.py)|Easy|Dictionary|
 |820|Short Encoding of Words|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0820_ShortEncodingOfWords.py)|Medium|remove all suffix in set|
 |821|Shortest Distance To A Character|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0821_ShortestDistanceToACharacter.py)|Easy|2-Pass|
+|841|Keys and Rooms|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0841_KeysAndRooms.py)|Medium|DFS|
 |856|Score of Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0856_ScoreOfParentheses.py)|Medium|Store depth of each parentheses|
 |865|Smallest Subtree with all the Deepest Nodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS + LCA|
 |895|Maximum Frequency Stack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack?|
@@ -118,10 +119,12 @@
 |1391|Check if There is a Valid Path in a Grid|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1391_CheckIfThereIsAValidPathInAGrid.py)|Medium|DFS using for loop|
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
+|1461|Check If a String Contains All Binary Codes of Size K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1461_CheckIfAStringContainsAllBinaryCodesOfSizeK.py)|Medium|set, put all possibilities in set and check if it has combination in set|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|Two Stacks|
 |1485|Clone Binary Tree With Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1485_CloneBinaryTreeWithRandomPointer.py)|Medium|DFS, Hashmap|
 |1490|Clone N-ary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1490_CloneN-aryTree.py)|Medium|BFS, Indexing|
 |1602|Find Nearest Right Node in Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1602_FindNearestRightNodeInBinaryTree.py)|Medium|BFS|
+|1641|Count Sorted Vowel Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1641_CountSortedVowelStrings.py)|Medium|backtracking and math solution|
 |1650|Lowest Common Ancestor of a Binary Tree III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1650_LowestCommonAncestsorOfABinaryTreeIII.py)|Medium|find path of p, if q not in the path, set q as q parent|
 |1676|Lowest Common Ancestor of a Binary Tree IV|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1676_LowestCommonAncestorOfABinaryTreeIV.py)|Medium|find the earliest node, then go right, if found node on both, return that node, else, return the found node|
 |1740|Find Distance in a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1740_FindDistanceInABinaryTree.py)|Medium|find the lca, add distance from lca to p and distance from lca to q|
