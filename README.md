@@ -69,6 +69,7 @@
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
+|621|Task Scheduler|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0621_TaskScheduler.py)|Medium|Greedy|
 |623|Add One Row to Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0623_AddOneRowToTree.py)|Medium|Keep track of the height of the tree|
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
@@ -87,12 +88,14 @@
 |841|Keys and Rooms|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0841_KeysAndRooms.py)|Medium|DFS|
 |856|Score of Parentheses|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0856_ScoreOfParentheses.py)|Medium|Store depth of each parentheses|
 |865|Smallest Subtree with all the Deepest Nodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS + LCA|
+|869|Reordered Power of 2|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0869_ReorderPowerOf2.py)|Medium|Counter|
 |895|Maximum Frequency Stack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack?|
 |980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1022|Sum of Root To Leaf Binary Numbers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1022_SumOfRootToLeafBinaryNumbers.py)|Easy|Pre-Order, add to sum|
+|1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
 |1087|Brace Expansion|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1087_BraceExpansion.py)|Medium|String, Permutation|
 |1091|Shortest Path in Binary Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1091_ShortestPathInBinaryMatrix.py)|Medium|define the neighbor, using yield function, add 1 to each neighbor|
 |1099|Two Sum Less Than K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1099_TwoSumLessThanK.py)|Easy|Find max that is less than K|
@@ -102,7 +105,7 @@
 |1162|As Far from Land as Possible|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1162_AsFarFromLandAsPossible.py)|Medium|BFS|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1165|Single-Row Keyboard|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1165_Single-Row_Keyboard.py)|Easy|Store all index in hashmap|
-|1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
+|1198|Find Smallest Common Elements in All Rows|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1198_FindSmallestCommonElementInAllRows.py)|Medium|HashMap|
 |1123|Lowest Common Ancestor of Deepest Leaves|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1123_LowestCommonAncestorOfDeepestLeaves.py)|Medium|BFS + LCA, same problem as 865|
 |1209|Remove All Adjacent Duplicates In String II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1209_RemoveAllAdjacentDuplicatesInStringII)|Medium|Stack|
 |1214|Two Sum BSTs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1214_TwoSumBST.py)|Medium|store in hashset, and find value|
@@ -117,6 +120,7 @@
 |1344|Angle Between Hands of a Clock|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1344_AngleBetweenHandsOfAClock.py)|Medium|The only good thing is, hour = hour % 12|
 |1375|Bulb Switcher III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1375_BulbSwitcherIII)|Medium|Check the right most lighted bulb (max(right, A[i])|
 |1391|Check if There is a Valid Path in a Grid|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1391_CheckIfThereIsAValidPathInAGrid.py)|Medium|DFS using for loop|
+|1396|Design Underground System|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1396_DesignUndergroundSystem.py)|Medium|2 hashmap, 1 for Check In ID, 1 for total time and counter|
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|Store diagonal in defaultDict(deque) and extend it to ret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|Binary Search With API understanding|
 |1461|Check If a String Contains All Binary Codes of Size K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1461_CheckIfAStringContainsAllBinaryCodesOfSizeK.py)|Medium|set, put all possibilities in set and check if it has combination in set|
