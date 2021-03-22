@@ -15,3 +15,7 @@ class Solution:
         cooling = max(0, cooling) #the idle can be negative but we want it to be more than 0
         print(cooling)
         return len(tasks) + cooling
+
+#[A__A__A__A__A] when cooling period is 2
+#[AB_AB_A__A__A]
+#[ABCAB_A__A__A] number of tasks + number of idle(cooling) = 13
