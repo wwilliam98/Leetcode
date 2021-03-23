@@ -11,8 +11,8 @@ class Solution:
             return ret
         
         d0 = set(wordlist)
-        d1 = {w.lower(): w for w in wordlist[::-1]} #lowercase query
-        d2 = {mask(w): w for w in wordlist[::-1]} #masked query
+        d1 = {w.lower(): w for w in wordlist[::-1]} #lowercase query: wordlist, reversed because we want to look at the first wordlist if there is duplicate
+        d2 = {mask(w): w for w in wordlist[::-1]} #masked query: wordlist
         
         def solve(query):
             if query in d0:
