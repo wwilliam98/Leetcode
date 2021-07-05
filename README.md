@@ -105,6 +105,7 @@
 |1110|Delete Nodes And Return Forest|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1110_DeleteNodesAndReturnForest.py)|Medium|if we want to change node, there must be node.left = ... node.right = ...|
 |1128|Number of Equivalent Domino Pairs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1128_NumberOfEquivalentDominoParts.py)|Easy|Just need to know the formula|
 |1134|Armstrong Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1134_ArmstrongNumber.py)|Easy|int to Str to int|
+|1161|Maximum Level Sum of a Binary Tree|[Python]()|Medium|Find sum, and track the current level|
 |1162|As Far from Land as Possible|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1162_AsFarFromLandAsPossible.py)|Medium|BFS|
 |1163|Last Substring In Lexicographical Order|[Python](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|Hard|Greedy|
 |1165|Single-Row Keyboard|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1165_Single-Row_Keyboard.py)|Easy|Store all index in hashmap|
