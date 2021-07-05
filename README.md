@@ -142,3 +142,4 @@
 |1768|Merge Strings Alternately|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1768_MergeStringsAlternately.py)|Easy|straight forward solution|
 |1769|Minimum Number of Operations to Move All Balls to Each Box|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.py)|Medium|Check front and back|
 |1774|Closest Dessert Cost|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1774_ClosestDessertCost.py)|Medium|Recursion|
+|1910|Remove All Occurrences of a Substring|[Python]()|Medium|Stack|
