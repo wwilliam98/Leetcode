@@ -17,6 +17,7 @@
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
+|96|Unique Binary Search Trees|[Python]()|Medium|Find combination for each subset and return the n-th subset|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
 |105|Construct Binary Tree from Preorder and Inorder Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py)|Medium|DFS|
@@ -47,6 +48,7 @@
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
 |346|Moving Average from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0346_MovingAverageFromDataStream.py)|Easy|calculate arrayfrom count-size|
 |366|Find Leaves of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0366_FindLeavesOfBinaryTree.py)|Medium|keep Cutting leaves until root == None|
+|394|Decode String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0394_DecodeString.py)|Medium|DFS using Stack|
 |417|Pacific Atlantic Water Flow|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0417_PacificAtlanticWaterFlow.py)|Medium|Find cell that can connect to pacific, then atlantic then see if that cell can connect to both pacific and atlantic|
 |426|Convert Binary Search Tree to Sorted Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0426_ConvertBinarySeachTreeToSortedDoublyLinkedList.py)|Medium|Store head/first node and curr/last node|
 |430|Flatten a Multilevel Doubly Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0430_FlattenAMultiLevelDoublyLinkedList.py)|Medium|update connection every node|
@@ -90,6 +92,7 @@
 |865|Smallest Subtree with all the Deepest Nodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS + LCA|
 |869|Reordered Power of 2|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0869_ReorderPowerOf2.py)|Medium|Counter|
 |895|Maximum Frequency Stack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack?|
+|966|Vowel Spellchecker|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0966_VowelSpellchecker.py)|Medium|Hashmap, Masking|
 |980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
