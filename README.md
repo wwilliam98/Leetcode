@@ -17,7 +17,7 @@
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
-|96|Unique Binary Search Trees|[Python]()|Medium|Find combination for each subset and return the n-th subset|
+|96|Unique Binary Search Trees|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0096_UniqueBinarySearchTrees.py)|Medium|Find combination for each subset and return the n-th subset|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
 |105|Construct Binary Tree from Preorder and Inorder Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0105_ConstructBinaryTreeFromPreorderAndInorderTraversal.py)|Medium|DFS|
