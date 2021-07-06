@@ -23,3 +23,4 @@ class Solution:
                     queue.append([nx-dirx, ny - diry])
                     visited[nx-dirx][ny - diry] = True
         return False
+        
