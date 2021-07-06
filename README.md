@@ -57,6 +57,7 @@
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Store result and change string in place|
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|Reverse Linked List -> Add them -> Reverse it again|
 |456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
+|490|The Maze|[Python]()|Medium|Graph + BFS|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
 |524|Longest Word in Dictionary through Deleting|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0524_LongestWordInDictionaryThroughDeleting.py)|Medium|Check Substring and compare to result|
