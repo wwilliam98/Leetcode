@@ -44,6 +44,7 @@
 |267|Palindrome Permutation II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0267_PalindromePermutationII.py)|Medium|get all the duplicates and mid. palindrome = duplicate + mid + duplicate[::-1]|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
+|286|Walls and Gates|[Python]()|Medium|2D + BFS|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
