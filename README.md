@@ -3,7 +3,7 @@
 
 |#|Title|Solution|Difficulty|Basic Idea|
 |----|-----|-----------------|-------|------|
-|1|Two Sum|[Python](https://github.com/iamCookie98/Leetcode/blob/master/Python/001_TwoSum.py)|Easy|Store Index in Hash Map|
+|1|Two Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0001_TwoSum.py)|Easy|Store Index in Hash Map|
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
 |25|Reverse Nodes in k-Group|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0025_Reverse%20Nodes%20in%20k-Group.py)|Medium|Recursion + reverse linked list|
 |29|Divide Two Integers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0029_DivideTwoIntegers.py)|Medium|Using the power of 2, subtract the dividend by double, keep adding the power to quotient|
@@ -60,7 +60,7 @@
 |490|The Maze|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0490_The%20Maze.py)|Medium|Graph + BFS|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
-|505|The Maze II|[Python]()|Medium|BFS|
+|505|The Maze II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0505_The%20Maze%20II.py)|Medium|BFS|
 |524|Longest Word in Dictionary through Deleting|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0524_LongestWordInDictionaryThroughDeleting.py)|Medium|Check Substring and compare to result|
 |526|Beautiful Arrangement|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0526_BeautifulArrangement.py)|Medium|like regular permutation, but we have to check if element is divisible by i, or i divisible by element|
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
