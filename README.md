@@ -60,6 +60,7 @@
 |490|The Maze|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0490_The%20Maze.py)|Medium|Graph + BFS|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Store each sum of index and diagonal in d, and reverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|Reversed Stack/Deque|
+|505|The Maze II|[Python]()|Medium|BFS|
 |524|Longest Word in Dictionary through Deleting|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0524_LongestWordInDictionaryThroughDeleting.py)|Medium|Check Substring and compare to result|
 |526|Beautiful Arrangement|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0526_BeautifulArrangement.py)|Medium|like regular permutation, but we have to check if element is divisible by i, or i divisible by element|
 |536|Construct Binary Tree from String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0536_ConstructBinaryTreeFromString.py)|Medium|Look through left then right|
