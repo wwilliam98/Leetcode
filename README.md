@@ -44,7 +44,7 @@
 |267|Palindrome Permutation II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0267_PalindromePermutationII.py)|Medium|get all the duplicates and mid. palindrome = duplicate + mid + duplicate[::-1]|
 |277|Find the Celebrity|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0277_FindTheCelebrity.py)|Medium|find candidate, check it candidate is valid|
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
-|286|Walls and Gates|[Python]()|Medium|2D + BFS|
+|286|Walls and Gates|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0286_Walls%20and%20Gates.py)|Medium|2D + BFS|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
@@ -80,6 +80,7 @@
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |706|Design HashMap|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0706_DesignHashMap.py)|Easy|Create new class for hashing|
+|718|Maximum Length of Repeated Subarray|[Python]()|Medium|Dynamic Programming|
 |763|Partition Labels|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/763_PartitionLabels.py)|Medium|Using Hash Map|
 |769|Max Chunks To Make Sorted|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0769_MaxChunksToMakeSorted.py)|Medium|find max of the highest element and compare to i|
 |773|Flood Fill|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0773_FloodFill.py)|Easy|DFS|
