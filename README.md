@@ -47,7 +47,7 @@
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |286|Walls and Gates|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0286_Walls%20and%20Gates.py)|Medium|2D + BFS|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
-|300|Longest Increasing Subsequence|[Python]()|Medium|Dp, |
+|300|Longest Increasing Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0300_Longest%20Increasing%20Subsequence.py)|Medium|Dp, Subsequence problem|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
 |346|Moving Average from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0346_MovingAverageFromDataStream.py)|Easy|calculate arrayfrom count-size|
