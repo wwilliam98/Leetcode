@@ -141,6 +141,7 @@
 |1641|Count Sorted Vowel Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1641_CountSortedVowelStrings.py)|Medium|backtracking and math solution|
 |1650|Lowest Common Ancestor of a Binary Tree III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1650_LowestCommonAncestsorOfABinaryTreeIII.py)|Medium|find path of p, if q not in the path, set q as q parent|
 |1676|Lowest Common Ancestor of a Binary Tree IV|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1676_LowestCommonAncestorOfABinaryTreeIV.py)|Medium|find the earliest node, then go right, if found node on both, return that node, else, return the found node|
+|1730|Shortest Path to Get Food|[Python]()|Medium|2D + BFS|
 |1740|Find Distance in a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1740_FindDistanceInABinaryTree.py)|Medium|find the lca, add distance from lca to p and distance from lca to q|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
