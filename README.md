@@ -47,6 +47,7 @@
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|Store the next Value|
 |286|Walls and Gates|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0286_Walls%20and%20Gates.py)|Medium|2D + BFS|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|Store num in array and find the Median|
+|300|Longest Increasing Subsequence|[Python]()|Medium|Dp, |
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS + Indexing|
 |332|Reconstruct Itinerary|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0332_RecontructItinary.py)|Medium|Store start, end in hashmap and recurse every start, destination|
 |346|Moving Average from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0346_MovingAverageFromDataStream.py)|Easy|calculate arrayfrom count-size|
@@ -141,7 +142,7 @@
 |1641|Count Sorted Vowel Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1641_CountSortedVowelStrings.py)|Medium|backtracking and math solution|
 |1650|Lowest Common Ancestor of a Binary Tree III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1650_LowestCommonAncestsorOfABinaryTreeIII.py)|Medium|find path of p, if q not in the path, set q as q parent|
 |1676|Lowest Common Ancestor of a Binary Tree IV|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1676_LowestCommonAncestorOfABinaryTreeIV.py)|Medium|find the earliest node, then go right, if found node on both, return that node, else, return the found node|
-|1730|Shortest Path to Get Food|[Python]()|Medium|2D + BFS|
+|1730|Shortest Path to Get Food|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1730_Shortest%20Path%20to%20Get%20Food.py)|Medium|2D + BFS|
 |1740|Find Distance in a Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1740_FindDistanceInABinaryTree.py)|Medium|find the lca, add distance from lca to p and distance from lca to q|
 |1754|Largest Merge Of Two Strings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1754_LargestMergeOfTwoStrings.py)|Medium|Compare the whole String|
 |1759|Count Number of Homogenous Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1759_CountNumberOfHomogenousSubstrings.py)|Medium|If there is substring, add counter + 1, and put it to sum|
