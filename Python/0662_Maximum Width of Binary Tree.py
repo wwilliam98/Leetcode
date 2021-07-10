@@ -16,7 +16,8 @@ class Solution:
                     queue.append([node.left, 2 * curr_index])
                 if node.right:
                     queue.append([node.right, 2 * curr_index + 1])
-
+                    
+            #most right index - most left inded + 1 will be the width of the level
             max_width = max(max_width, curr_index - level_node_index + 1)
 
         return max_width
