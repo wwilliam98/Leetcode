@@ -80,7 +80,7 @@
 |621|Task Scheduler|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0621_TaskScheduler.py)|Medium|Greedy|
 |623|Add One Row to Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0623_AddOneRowToTree.py)|Medium|Keep track of the height of the tree|
 |647|Palindromic Substrings|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0647_PalindromeSubtrings.py)|Medium|Not the best solution, but still accepted lol|
-|662|Maximum Width of Binary Tree|[Python]()|Medium|BFS + Tree|
+|662|Maximum Width of Binary Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0662_Maximum%20Width%20of%20Binary%20Tree.py)|Medium|BFS + Tree|
 |694|NumberOfDistinctIslands|[Python](https://leetcode.com/problems/number-of-distinct-islands/)|Medium|Store path and direction of 2D array|
 |706|Design HashMap|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0706_DesignHashMap.py)|Easy|Create new class for hashing|
 |718|Maximum Length of Repeated Subarray|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0718_Maximum%20Length%20of%20Repeated%20Subarray.py)|Medium|Dynamic Programming|
