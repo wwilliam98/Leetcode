@@ -11,6 +11,7 @@
 |37|Sudoku Solver|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0037_SudokuSolver.py)|Hard|create valid function, create find_empty, do recursion with base case nothing left is empty|
 |39|Combination Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0039_CombinationSum.py)|Medium|Backtracking|
 |40|Combination Sum II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0040_CombinationSumII.py)|Medium|Backtracking with optimization, good question|
+|41|First Missing Positive|[Python]()|Hard|Cyclic Sort|
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
