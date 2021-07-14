@@ -20,6 +20,7 @@
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
+|82|Remove Duplicates from Sorted List II|[Python]()|Medium|Sentinel Node|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
 |96|Unique Binary Search Trees|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0096_UniqueBinarySearchTrees.py)|Medium|Find combination for each subset and return the n-th subset|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
@@ -92,6 +93,7 @@
 |773|Flood Fill|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0773_FloodFill.py)|Easy|DFS|
 |776|Split BST|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0776_SplitBST.py)|Medium|The trick here is to return left and right, if we found the node, we want to separate left sub tree and right, and replacing it with the subtree from the prev left, right|
 |784|Letter Case Permutation|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0784_LetterCasePermutation.py)|Medium|Permutations Using strings|
+|787|Cheapest Flights Within K Stops|[Python]()|Medium|Dijkstra Algorithm|
 |797|All Paths From Source to Target|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0797_AllPathFromSourceToTarget.py)|Medium|Backtracking|
 |807|Max Increase to Keep City Skyline|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0807_MaxIncreaseToKeepCitySkyline.py)|Medium|find max of row, col. compare minimum and sub with cell|
 |811|Subdomain Visit Count|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0811_SubdomainVisitCount.py)|Easy|Hash Map, Split|
