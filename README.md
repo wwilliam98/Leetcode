@@ -20,7 +20,7 @@
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
-|82|Remove Duplicates from Sorted List II|[Python]()|Medium|Sentinel Node|
+|82|Remove Duplicates from Sorted List II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0082_Remove%20Duplicates%20from%20Sorted%20List%20II.py)|Medium|Sentinel Node|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
 |96|Unique Binary Search Trees|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0096_UniqueBinarySearchTrees.py)|Medium|Find combination for each subset and return the n-th subset|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
