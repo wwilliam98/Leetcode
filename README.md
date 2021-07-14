@@ -19,7 +19,7 @@
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
-|74|Search a 2D Matrix|[Python]()|Medium|2D Binary Search|
+|74|Search a 2D Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0074_Search%20a%202D%20Matrix.py)|Medium|2D Binary Search|
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |82|Remove Duplicates from Sorted List II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0082_Remove%20Duplicates%20from%20Sorted%20List%20II.py)|Medium|Sentinel Node|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
