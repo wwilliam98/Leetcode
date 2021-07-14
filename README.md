@@ -16,6 +16,7 @@
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |54|Spiral Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0054_Spiral%20Matrix.py)|Medium|2D Simulation|
 |59|Spiral Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0059_Spiral%20Matrix%20II.py)|Medium|2D Simulation|
+|62|Unique Paths|[Python]()|Medium|Dynamic Programming|
 |64|Minimum Path Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0064_MinimumPathSum.py)|Medium|Dynamic Programming|
 |71|Simplify Path|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0071_SimplifyPath.py)|Medium|Stack|
 |73|Set Matrix Zeroes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0073_SetMatrixZeroes.py)|Medium|Set indexes for all 0's|
