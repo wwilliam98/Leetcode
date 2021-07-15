@@ -19,4 +19,4 @@ class Solution:
                     nx += dx
                     ny += dy
                     visited[nx][ny] = True
-                    heapq.heappush(queue, (max(val, -grid[nx][ny]), nx, ny))
+                    heapq.heappush(queue, (max(val, -grid[nx][ny]), nx, ny)) 
