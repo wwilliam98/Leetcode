@@ -83,6 +83,7 @@
 |581|Shortest Unsorted Continuous Subarray|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0581_ShortestUnsortedContinuousSubarray.py)|Medium|Find the unsorted, find max&min value in the unsorted, extend the index again until find the right index|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|Put Parent:Child in dictionary, use Queue or stack to keep calling the next child|
 |594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|Store in Hash Map and if there is key + 1, add the result|
+|611|Valid Triangle Number|[Python]()|Medium|Search|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|store intervals, merge them and build the string|
 |621|Task Scheduler|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0621_TaskScheduler.py)|Medium|Greedy|
 |623|Add One Row to Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0623_AddOneRowToTree.py)|Medium|Keep track of the height of the tree|
