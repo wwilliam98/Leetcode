@@ -113,6 +113,7 @@
 |980|Unique Paths III|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking, DFS|
 |991|Broken Calculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|This question is like a leaping frog question but backwards|
 |994|Rotting Oranges|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0994_RottingOranges.py)|Medium|BFS, Keep track with the number of fresh orange, and minutes|
+|1102|Path With Maximum Minimum Value|[Python]()|Medium|Dijkstra|
 |1019|Next Greater Node In Linked List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1019_NextGreaterNodeInLinkedList.py)|Medium|Linked list, stack, find next greater element|
 |1022|Sum of Root To Leaf Binary Numbers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1022_SumOfRootToLeafBinaryNumbers.py)|Easy|Pre-Order, add to sum|
 |1080|Insufficient Nodes in Root to Leaf Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1080_InsufficientNodesInRootToLeafPaths.py)|Medium|DFS|
