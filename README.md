@@ -26,7 +26,7 @@
 |79|Word Search|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/079_WordSearch.py)|Medium|Mark every Visited Letter|
 |82|Remove Duplicates from Sorted List II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0082_Remove%20Duplicates%20from%20Sorted%20List%20II.py)|Medium|Sentinel Node|
 |86|Partition List|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0086_PartitionList.py)|Medium|4 Point Reference|
-|91|Decode Ways|[Python]()|Medium|Memoization|
+|91|Decode Ways|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0091_Decode%20Ways.py)|Medium|Memoization|
 |96|Unique Binary Search Trees|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0096_UniqueBinarySearchTrees.py)|Medium|Find combination for each subset and return the n-th subset|
 |101|Symmetric Tree|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0101_SymmetricTree.py)|Easy|Check if its mirror, left=right, right=left|
 |103|Binary Tree Zigzag Level Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0103_BinaryTreeZigZagLevelOrderTraversal.py)|Medium|BFS, reverse|
