@@ -5,6 +5,7 @@
 |----|-----|-----------------|-------|------|
 |1|Two Sum|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0001_TwoSum.py)|Easy|Store Index in Hash Map|
 |11|Container With Most Water|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0011_ContainerWithMostWater.py)|Medium|2 pointers|
+|18|4Sum|[Python]()|Medium|k-Sum Solution|
 |25|Reverse Nodes in k-Group|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0025_Reverse%20Nodes%20in%20k-Group.py)|Medium|Recursion + reverse linked list|
 |29|Divide Two Integers|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0029_DivideTwoIntegers.py)|Medium|Using the power of 2, subtract the dividend by double, keep adding the power to quotient|
 |36|Valid Sudoku|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0036_ValidSudoku.py)|Medium|Check row, col, and boxes|
