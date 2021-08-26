@@ -16,6 +16,7 @@
 |46|Permutations|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0046_Permutations.py)|Medium|Backtracking|
 |48|Rotate Image|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0048_RotateImage.py)|Medium|Transpose, reverse image to get 90 clockwise rotation|
 |54|Spiral Matrix|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0054_Spiral%20Matrix.py)|Medium|2D Simulation|
+|55|Jump Game|[Python]()|Medium|DP, memo|
 |59|Spiral Matrix II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0059_Spiral%20Matrix%20II.py)|Medium|2D Simulation|
 |62|Unique Paths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0062_Unique%20Paths.py)|Medium|Dynamic Programming|
 |63|Unique Paths II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0063_Unique%20Paths%20II.py)|Medium|Dynamic Programming|
