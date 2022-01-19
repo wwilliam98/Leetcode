@@ -37,3 +37,38 @@ class Solution:
                 return True
 
         return False
+
+#DP, n^2 (TLE)
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        self.memo = {}
+        for i in range(len(nums)):
+            self.memo[i] = "unknown"
+        self.memo[len(nums)-1] = "good"
+        return self.helper(0, nums)
+        
+    def helper(self, position, nums):
+        if self.memo[position] != "unknown":
+            if self.memo[position] == "good":
+                return True
+            else:
+                return False
+        
+        furthestJump = min(position + nums[position], len(nums)-1) #boundary so index doesnt go out of range
+        nextPosition = position + 1
+        for i in range(nextPosition, furthestJump+1):
+            if self.helper(i, nums):
+                self.memo[position] = "good"
+                return True
+        
+        self.memo[position] = "bad"
+        return False
+
+#Greedy, n
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        lastPos = len(nums) - 1
+        for i in range(lastPos-1, -1, -1):
+            if i + nums[i] >= lastPos:
+                lastPos = i
+        return lastPos == 0
