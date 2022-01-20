@@ -1,6 +1,6 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        #DP, Kadane's Algorithm (figure out when a part of the array is worth keeping)
+        #DP, Kadane's Algorithm (figure out when a part of the array is worth keeping. In this case the Positive Subarray)
         curr_sub = 0
         mx = float("-inf")
         for n in nums:
