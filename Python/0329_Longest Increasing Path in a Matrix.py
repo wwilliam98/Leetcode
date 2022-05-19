@@ -30,4 +30,4 @@ class Solution:
         
         #Add 1 as its a bottom up approach
         memo[i][j] = path_length + 1
-        return path_length + 1
+        return path_length + 1 
