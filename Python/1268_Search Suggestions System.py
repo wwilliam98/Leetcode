@@ -21,4 +21,3 @@ class Solution:
                 self.ans.append((self.prefixes[prefix])[:3])
             else:
                 self.ans.append(self.prefixes[prefix])
-        

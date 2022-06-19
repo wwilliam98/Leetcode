@@ -26,4 +26,4 @@ class WordFilter:
 
 # Your WordFilter object will be instantiated and called as such:
 # obj = WordFilter(words)
-# param_1 = obj.f(prefix,suffix)
+# param_1 = obj.f(prefix,suffix) 
