@@ -125,8 +125,7 @@
 |865|SmallestSubtreewithalltheDeepestNodes|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0865_SmallestSubtreeWithAllTheDeepestNodes.py)|Medium|BFS+LCA|
 |869|ReorderedPowerof2|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0869_ReorderPowerOf2.py)|Medium|Counter|
 |890|FindandReplacePattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0890_Find%20and%20Replace%20Pattern.py)|Medium|Maskeverywordto'a'then'b'andsoon|
-
-|895|MaximumFrequencyStack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack?|
+|895|MaximumFrequencyStack|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0895_MaximumFrequencyStack.py)|Hard|PriorityStack|
 |966|VowelSpellchecker|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0966_VowelSpellchecker.py)|Medium|Hashmap,Masking|
 |980|UniquePathsIII|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0980_UniquePathsIII.py)|Hard|Backtracking,DFS|
 |991|BrokenCalculator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0991_BrokenCalculator.py)|Medium|Thisquestionislikealeapingfrogquestionbutbackwards|
