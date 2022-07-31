@@ -63,6 +63,7 @@
 |286|WallsandGates|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0286_Walls%20and%20Gates.py)|Medium|2D+BFS|
 |295|FindMedianfromDataStream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|StorenuminarrayandfindtheMedian|
 |300|LongestIncreasingSubsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0300_Longest%20Increasing%20Subsequence.py)|Medium|Dp,Subsequenceproblem|
+|307|Range Sum Query - Mutable|[Python]()|Medium|Create Segmented Tree|
 |314|BinaryTreeVerticalOrderTraversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS+Indexing|
 |318|MaximumProductofWordLengths|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0318_Maximum%20Product%20of%20Word%20Lengths.py)|Medium|BitMasking|
 |322|CoinChange|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0322_Coin%20Change.py)|Medium|Top-DownDP,Bottom-upDP|
