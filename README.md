@@ -80,6 +80,7 @@
 |443|String Compression|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0443_StringCompression.py)|Medium|Storeresultandchangestringinplace|
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|ReverseLinkedList->Addthem->Reverseitagain|
 |456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
+|458|poor-pigs|[Python]()|Hard|Use one pig to find the row (make it drink from buckets 1, 2, 3, 4, 5, wait 15 minutes, make it drink from buckets 6, 7, 8, 9, 10, wait 15 minutes, etc). Use the second pig to find the column (make it drink 1, 6, 11, 16, 21, then 2, 7, 12, 17, 22, etc).|
 |490|The Maze|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0490_The%20Maze.py)|Medium|Graph+BFS|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Storeeachsumofindexanddiagonalind,andreverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|ReversedStack/Deque|
