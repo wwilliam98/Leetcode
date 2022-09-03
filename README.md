@@ -96,7 +96,7 @@
 |575|Distribute Candies|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0575_Distribute_Candies.py)|Easy|Hashset|
 |581|Shortest Unsorted Continuous Subarray|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0581_ShortestUnsortedContinuousSubarray.py)|Medium|Findtheunsorted,findmax&minvalueintheunsorted,extendtheindexagainuntilfindtherightindex|
 |582|Kill Process|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0582_KillProcess.py)|Medium|PutParent:Childindictionary,useQueueorstacktokeepcallingthenextchild|
-|594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/594_LongestHarmoniousSubsequence.py)|Easy|StoreinHashMapandifthereiskey+1,addtheresult|
+|594|Longest Harmonious Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0594_LongestHarmoniousSubsequence.py)|Easy|StoreinHashMapandifthereiskey+1,addtheresult|
 |611|Valid Triangle Number|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0611_Valid%20Triangle%20Number.py)|Medium|Search|
 |616|Add Bold Tag In String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0616_AddBoldTagInString.py)|Medium|storeintervals,mergethemandbuildthestring|
 |621|Task Scheduler|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0621_TaskScheduler.py)|Medium|Greedy|
