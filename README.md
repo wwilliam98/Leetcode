@@ -81,7 +81,7 @@
 |445|Add Two Numbers II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0445_AddTwoNumbersII.py)|Medium|ReverseLinkedList->Addthem->Reverseitagain|
 |456|132 Pattern|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0456_123Pattern.py)|Medium|Stack|
 |458|poor-pigs|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0458_PoorPigs.py)|Hard|DP? maybe Math|
-|483|Find All Anagrams in a String|[Python]()|Medium|Sliding Window|
+|483|Find All Anagrams in a String|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0483_Find%20All%20Anagrams%20in%20a%20String.py)|Medium|Sliding Window|
 |490|The Maze|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0490_The%20Maze.py)|Medium|Graph+BFS|
 |498|Diagonal Traverse|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0498_DiagonalTraverse.py)|Medium|Storeeachsumofindexanddiagonalind,andreverse|
 |503|Next Greater Element II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0503_NextGreaterElementII.py)|Medium|ReversedStack/Deque|
