@@ -62,6 +62,7 @@
 |284|Peeking Iterator|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0284_PeekingIterator.py)|Medium|StorethenextValue|
 |286|Walls and Gates|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0286_Walls%20and%20Gates.py)|Medium|2D+BFS|
 |295|Find Median from Data Stream|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/295_FindMedianfromDataStream.py)|Hard|StorenuminarrayandfindtheMedian|
+|299|Bulls and Cows|[Python]()|Medium|Table, String, Counting, One-Pass|
 |300|Longest Increasing Subsequence|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0300_Longest%20Increasing%20Subsequence.py)|Medium|Dp,Subsequenceproblem|
 |307|Range Sum Query - Mutable|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0307_Range%20Sum%20Query%20-%20Mutable.py)|Medium|Create Segmented Tree|
 |314|Binary Tree Vertical Order Traversal|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/0314_BinaryTreeVerticalOrderTraversal.py)|Medium|BFS+Indexing|
