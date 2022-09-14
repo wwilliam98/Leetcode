@@ -167,6 +167,7 @@
 |1396|Design Underground System|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1396_DesignUndergroundSystem.py)|Medium|2hashmap,1forCheckInID,1fortotaltimeandcounter|
 |1424|Diagonal Traverse II|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1424_DiagonalTraverseII.py)|Medium|StorediagonalindefaultDict(deque)andextendittoret|
 |1428|Left most Column With At Least A One|[Python](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/)|Medium|BinarySearchWithAPIunderstanding|
+|1457|Pseudo-Palindromic Paths in a Binary Tree|[Python]()|Medium|BFS|
 |1461|Check If a String Contains All Binary Codes of Size K|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1461_CheckIfAStringContainsAllBinaryCodesOfSizeK.py)|Medium|set,putallpossibilitiesinsetandcheckifithascombinationinset|
 |1472|Design Browser History|[Python](https://github.com/wwilliam98/Leetcode/tree/master/Python)|Medium|TwoStacks|
 |1485|Clone Binary Tree With Random Pointer|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1485_CloneBinaryTreeWithRandomPointer.py)|Medium|DFS,Hashmap|
