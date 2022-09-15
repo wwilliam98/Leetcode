@@ -186,3 +186,4 @@
 |1769|Minimum Number of Operations to Move All Balls to EachBox|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1769_MinimumNumberOfOperationsToMoveAllBallsToEachBox.py)|Medium|Checkfrontandback|
 |1774|Closest Dessert Cost|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1774_ClosestDessertCost.py)|Medium|Recursion|
 |1910|Remove All Occurrences of a Substring|[Python](https://github.com/wwilliam98/Leetcode/blob/master/Python/1910_Remove%20All%20Occurrences%20of%20a%20Substring.py)|Medium|Stack|
+|2007|Find Original Array From Doubled Array|[Python]()|Medium|Hash Table, sorting|
